@@ -1,0 +1,48 @@
+###############
+# Terraform
+###############
+
+# Local provider & module cache
+**/.terraform/*
+
+# State files (often contain sensitive data)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may hold secrets
+*.tfvars
+*.tfvars.json
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Saved plan files (e.g., terraform plan -out=plan.tfplan)
+*.tfplan
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+###############
+# Environment / shell helpers
+###############
+.envrc
+
+###############
+# IDE / Editor folders
+###############
+.vscode/
+.idea/
+
+###############
+# macOS / Windows noise
+###############
+.DS_Store
+Thumbs.db
